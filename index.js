@@ -1,7 +1,8 @@
 const fs = require('fs');
+const Constants = require('@solstice.sebastian/constants');
 
 const Logger = ({ path = 'logger.log', namespace } = {}) => {
-  const separator = '\n\n------------------------------------------------------\n\n';
+  const separator = Constants.TEXT_SECTION_SEPARATOR;
   const toFile = ({ text }) => {
     if (fs.existsSync(path) === false) {
       fs.writeFileSync(path, text, { encoding: 'utf8' });

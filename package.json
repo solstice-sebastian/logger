@@ -26,5 +26,8 @@
     "tape-watch": "*"
   },
   "author": "solstice.sebastian",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@solstice.sebastian/constants": "^1.0.5"
+  }
 }
