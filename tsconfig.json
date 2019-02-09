@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es2015", "es2016", "es2017", "esnext"],
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "preserveConstEnums": true,
+    "downlevelIteration": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true
+  }
+}
